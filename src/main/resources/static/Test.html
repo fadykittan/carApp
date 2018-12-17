@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Form test</title>
+
+<style type="text/css">
+	input:valed{background-color: aqua;}
+</style>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+	<button onclick="document.getElementById('demo').innerHTML = Date()">The time now is :</button>
+	<p id=demo></p>
+	
+	<input list="cars" name cars>
+	<datalist id="cars" title="CARS" >
+	<option value="Mercedes">
+	<option value="Volvo">
+	<option value="Golf">
+	<option value="Seat">
+	<option value="BMW">
+	</datalist><br><br><br>
+	
+	
+	<form action="xxx.jsp" methode="post" ">
+		name:<input type=text name="shem" pattern="[a-z]+">
+		<button>send it</button>
+	</form>
+
+</body>
+</html>
