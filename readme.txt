@@ -17,3 +17,20 @@ spring.datasource.password=29ab58789410241ab8914908cec8269d50e5b6bda7da5de325124
 spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
 spring.jpa.hibernate.ddl-auto = update
 spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+
+
+=============================
+server.port=8085
+spring.jpa.show-sql=true
+
+
+
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.url = jdbc:postgresql://ec2-79-125-4-96.eu-west-1.compute.amazonaws.com:5432/d15l7rddi13d8t
+
+spring.datasource.username=xqbdmgjgwnpoxh
+spring.datasource.password=29ab58789410241ab8914908cec8269d50e5b6bda7da5de325124a31d716e007
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
